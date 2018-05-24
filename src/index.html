@@ -7,6 +7,35 @@
 </head>
 <body>
 
+  <h1>Codificador de mensajes</h1>
+
+  <section class="sectionOne">
+    <p>Valor de desplazamiento</p>
+    <input type="text">
+    <button>Aceptar</button>
+  </section>
+  
+  <section class="sectionTwo">
+    <p>Ingrese mensaje a cifrar</p>
+    <textarea id="aCifrar" cols="30" rows="6"></textarea>
+
+  <div>
+    <button>Cifrar texto</button>
+  </div>
+    <p>Mensaje cifrado</p>
+    <textarea id="cifrado"readonly cols="30" rows="6"></textarea>
+  </section>
+
+  <section class="sectionThree">
+    <p>Ingrese mensaje a descifrar</p>
+    <textarea id="mCifrado" cols="30" rows="6"></textarea>
+  <div>
+    <button>Descifrar texto</button>
+  </div> 
+    <p>Mensaje descifrado</p>
+    <textarea id="mdescifrado"readonly cols="30" rows="6"></textarea>
+  </section>
+
   <div id="root"></div>
 
   <script src="cipher.js"></script>

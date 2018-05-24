@@ -1,1 +1,35 @@
 /* Acá va tu código */
+body{
+    background-color: rgb(197, 42, 42);
+}
+
+h1{
+   text-align: center;
+   color:rgb(10, 10, 143); 
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 21px;
+    color:black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.sectionOne{
+    display: block;
+    margin-left: 36em;
+}
+
+.sectionTwo{
+    display: inline-block;
+    margin-left: 20em;
+    margin-top: 4em;
+}
+
+.sectionThree{
+    float: right;
+    margin-right: 20em;
+    margin-top: 4em;
+}
