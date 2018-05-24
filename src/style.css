@@ -1,6 +1,6 @@
 /* Acá va tu código */
 body{
-    background-color: rgb(197, 42, 42);
+    background-image: url(../src/picture/pexels-photo-593159.jpeg);
 }
 
 h1{
@@ -25,11 +25,15 @@ p{
 .sectionTwo{
     display: inline-block;
     margin-left: 20em;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 .sectionThree{
     float: right;
     margin-right: 20em;
-    margin-top: 4em;
+    margin-top: 2em;
+}
+
+textarea{
+background-color: rgb(228, 201, 201);
 }
