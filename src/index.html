@@ -8,32 +8,32 @@
 <body>
 
   <h1>Codificador de mensajes</h1>
+  <p id="move">Valor de desplazamiento</p>
 
   <section class="sectionOne">
-    <p>Valor de desplazamiento</p>
     <input type="number" min="1" max="50">
-    <button>Ingresar</button>
+    <button id="position">Ingresar</button>
   </section>
   
   <section class="sectionTwo">
     <p>Ingrese mensaje a cifrar</p>
-    <textarea id="aCifrar" cols="30" rows="6"></textarea>
-
+    <textarea id="aCifrar" cols="50" rows="6"></textarea>
   <div>
-    <button>Cifrar texto</button>
+    <button id="code">Cifrar texto</button>
   </div>
-    <p>Mensaje cifrado</p>
-    <textarea id="cifrado"readonly cols="30" rows="6"></textarea>
   </section>
 
   <section class="sectionThree">
     <p>Ingrese mensaje a descifrar</p>
-    <textarea id="mCifrado" cols="30" rows="6"></textarea>
+    <textarea id="mCifrado" cols="50" rows="6"></textarea>
   <div>
-    <button>Descifrar texto</button>
+    <button id="decode">Descifrar texto</button>
   </div> 
-    <p>Mensaje descifrado</p>
-    <textarea id="mdescifrado"readonly cols="30" rows="6"></textarea>
+  </section>
+
+  <p id=msj>Resultado de su mensaje</p>
+  <section class="result">
+    <textarea id="mdescifrado"readonly cols="80" rows="6"></textarea>
   </section>
 
   <div id="root"></div>

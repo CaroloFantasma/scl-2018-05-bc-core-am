@@ -4,10 +4,18 @@ body{
 }
 
 h1{
-   text-align: center;
-   color:rgb(10, 10, 143); 
+    text-align: center;
+    color:rgb(10, 10, 143); 
     font-size: 3em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#move{
+    text-align: center;
+}
+
+#msj{
+    text-align: center;
 }
 
 p{
@@ -19,21 +27,25 @@ p{
 
 .sectionOne{
     display: block;
-    margin-left: 36em;
+    margin-left: 38em;
 }
 
 .sectionTwo{
     display: inline-block;
-    margin-left: 20em;
+    margin-left: 15em;
     margin-top: 2em;
 }
 
 .sectionThree{
     float: right;
-    margin-right: 20em;
+    margin-right: 15em;
     margin-top: 2em;
 }
 
 textarea{
 background-color: rgb(228, 201, 201);
+}
+
+.result{
+   margin-left: 25em;
 }
