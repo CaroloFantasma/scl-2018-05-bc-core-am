@@ -3,38 +3,76 @@
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Itim|Special+Elite" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <h1>Codificador de mensajes</h1>
+  <h1>Caesar Cipher</h1>
   <p id="move">Valor de desplazamiento</p>
 
   <section class="sectionOne">
-    <input type="number" min="1" max="50">
+    <select id="shift">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+      <option value="11">11</option>
+      <option value="12">12</option>
+      <option value="13">13</option>
+      <option value="14">14</option>
+      <option value="15">15</option>
+      <option value="16">16</option>
+      <option value="17">17</option>
+      <option value="18">18</option>
+      <option value="19">19</option>
+      <option value="20">20</option>
+      <option value="21">21</option>
+      <option value="22">22</option>
+      <option value="23">23</option>
+      <option value="24">24</option>
+      <option value="25">25</option>
+      <option value="26">26</option>
+      <option value="27">27</option>
+      <option value="28">28</option>
+      <option value="29">29</option>
+      <option value="30">30</option>
+      <option value="31">31</option>
+      <option value="32">32</option>
+      <option value="33">33</option>
+      <option value="34">34</option>
+      <option value="35">35</option>
+      <option value="36">36</option>
+      <option value="37">37</option>
+      <option value="38">38</option>
+      <option value="39">39</option>
+      <option value="40">40</option>
+    </select>
     <button id="position">Ingresar</button>
   </section>
   
   <section class="sectionTwo">
-    <p>Ingrese mensaje a cifrar</p>
-    <textarea id="aCifrar" cols="50" rows="6"></textarea>
-  <div>
+    <p id="p1">Ingrese su mensaje</p>
+    <textarea id="aCifrar" cols="60" rows="8"></textarea>
     <button id="code">Cifrar texto</button>
-  </div>
   </section>
 
   <section class="sectionThree">
-    <p>Ingrese mensaje a descifrar</p>
-    <textarea id="mCifrado" cols="50" rows="6"></textarea>
+    <p id="p2">Resultado de su mensaje</p>
+    <textarea id="mdescifrado"readonly cols="60" rows="8"></textarea>
   <div>
     <button id="decode">Descifrar texto</button>
   </div> 
   </section>
 
-  <p id=msj>Resultado de su mensaje</p>
-  <section class="result">
-    <textarea id="mdescifrado"readonly cols="80" rows="6"></textarea>
-  </section>
 
   <div id="root"></div>
 

@@ -1,51 +1,104 @@
 /* Acá va tu código */
 body{
-    background-image: url(../src/picture/pexels-photo-593159.jpeg);
+    background-image: url(../src/picture/pexels-photo-paper.jpeg);
 }
 
 h1{
     text-align: center;
-    color:rgb(10, 10, 143); 
-    font-size: 3em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color:rgb(10, 10, 143);  */
+    font-size: 70px;
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(170, 7, 7);
+    position: relative;
+    bottom: 50px
+
 }
 
 #move{
     text-align: center;
+    position: relative;
+    bottom: 90px;
 }
 
-#msj{
-    text-align: center;
-}
 
 p{
-    font-size: 21px;
+    font-size: 30px;
     color:black;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Special Elite', cursive;
+}
+
+#p1{
+    position: relative;
+    left: 90px;
+}
+
+#p2{
+    position: relative;
+    left: 50px;
 }
 
 .sectionOne{
     display: block;
-    margin-left: 38em;
+    margin-left: 37em;
+    position: relative;
+    bottom: 90px;
 }
 
 .sectionTwo{
     display: inline-block;
-    margin-left: 15em;
+    margin-left: 5em;
     margin-top: 2em;
+    position: relative;
+    bottom: 80px;
 }
 
 .sectionThree{
     float: right;
-    margin-right: 15em;
+    margin-right: 5em;
     margin-top: 2em;
+    position: relative;
+    bottom: 80px;
 }
 
 textarea{
 background-color: rgb(228, 201, 201);
+border:6px double  rgb(158, 6, 6);
+resize: none;
 }
 
-.result{
-   margin-left: 25em;
+#code{
+  position: relative;
+  bottom: 80px;
+  left: 60px;
+  width: 170px;
+  border: outset medium black; 
+  font-family: 'Special Elite', cursive;
+  font-family: 'Itim', cursive;
+  font-size: 15px;
+
+}
+
+#decode{
+  position: relative;
+  bottom: 50px;
+  right: 220px;
+  width: 170px;
+  border: outset  medium black; 
+  font-family: 'Special Elite', cursive;
+  font-family: 'Itim', cursive;
+  font-size: 15px;
+}
+
+#shift{
+    border: solid medium;
+    width: 60px;
+}
+
+#position{
+    border: solid medium;
+    width: 120px;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Itim', cursive;
+    font-size: 15px;
 }
