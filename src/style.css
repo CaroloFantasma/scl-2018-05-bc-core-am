@@ -11,7 +11,6 @@ h1{
     color: rgb(170, 7, 7);
     position: relative;
     bottom: 50px
-
 }
 
 #move{
@@ -65,6 +64,7 @@ textarea{
 background-color: rgb(228, 201, 201);
 border:6px double  rgb(158, 6, 6);
 resize: none;
+box-shadow: 20px 20px 20px rgb(41, 31, 31);
 }
 
 #code{
@@ -76,6 +76,7 @@ resize: none;
   font-family: 'Special Elite', cursive;
   font-family: 'Itim', cursive;
   font-size: 15px;
+  box-shadow: 20px 20px 20px rgb(41, 31, 31);
 
 }
 
@@ -88,11 +89,13 @@ resize: none;
   font-family: 'Special Elite', cursive;
   font-family: 'Itim', cursive;
   font-size: 15px;
+  box-shadow: 20px 20px 20px rgb(41, 31, 31);
 }
 
 #shift{
     border: solid medium;
     width: 60px;
+    box-shadow: 20px 20px 20px rgb(41, 31, 31);
 }
 
 #position{
@@ -101,4 +104,5 @@ resize: none;
     font-family: 'Special Elite', cursive;
     font-family: 'Itim', cursive;
     font-size: 15px;
+    box-shadow: 20px 20px 20px rgb(41, 31, 31);
 }
