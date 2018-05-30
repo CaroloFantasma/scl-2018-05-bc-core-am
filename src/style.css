@@ -67,7 +67,7 @@ resize: none;
 box-shadow: 20px 20px 20px rgb(41, 31, 31);
 }
 
-#code{
+#codificar{
   position: relative;
   bottom: 80px;
   left: 60px;
@@ -77,10 +77,9 @@ box-shadow: 20px 20px 20px rgb(41, 31, 31);
   font-family: 'Itim', cursive;
   font-size: 15px;
   box-shadow: 20px 20px 20px rgb(41, 31, 31);
-
 }
 
-#decode{
+#decodificar{
   position: relative;
   bottom: 50px;
   right: 220px;
@@ -92,7 +91,7 @@ box-shadow: 20px 20px 20px rgb(41, 31, 31);
   box-shadow: 20px 20px 20px rgb(41, 31, 31);
 }
 
-#shift{
+#offset{
     border: solid medium;
     width: 60px;
     box-shadow: 20px 20px 20px rgb(41, 31, 31);
