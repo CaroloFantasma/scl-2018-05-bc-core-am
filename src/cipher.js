@@ -6,7 +6,7 @@ encode: (firsText, numOffset) => {
   for (let i = 0; i < firsText.length; i++){
   let positionStr = firsText.charCodeAt(i); //Obtiene el valor ASCII
     if ((positionStr >= 65) && (positionStr <= 90)){ 
-      let encript = (positionStr - 65 + numOffset) % 26 + 65;
+      let encript = (positionStr - 65 + parseInt(numOffset)) % 26 + 65;
       strEmpty += String.fromCharCode (encript);
       } //Valores ASCII Mayusculas
    
@@ -19,7 +19,7 @@ encode: (firsText, numOffset) => {
 return strEmpty;
 }, 
 
-decode: (firsText, offset) => {
+decode: (firsText, numOffset) => {
   let strEmpty = '';
 
   for (let i = 0; i < firsText.length; i++){
