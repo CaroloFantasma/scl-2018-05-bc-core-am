@@ -1,11 +1,11 @@
 /* Acá va tu código */
 
-const positionBtn = document.getElementById('position').value;
-const encodeBtn = document.getElementById('codificar');
-const decodeBtn = document.getElementById('decodificar');
-const strTxt = document.getElementById('str').value;
-const resultMsg = document.getElementById('mDescifrado');
-const NumOffset = document.getElementById('offset').value;
+let positionBtn = document.getElementById('position').value;
+let encodeBtn = document.getElementById('codificar');
+let decodeBtn = document.getElementById('decodificar');
+let strTxt = document.getElementById('str').value;
+let resultMsg = document.getElementById('mDescifrado');
+let NumOffset = document.getElementById('offset').value;
 
 
 // positionB.addEventListener ('click', event => {
