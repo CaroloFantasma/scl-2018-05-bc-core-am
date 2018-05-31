@@ -1,24 +1,18 @@
 /* Acá va tu código */
 
-let positionBtn = document.getElementById('position').value;
-let encodeBtn = document.getElementById('codificar');
-let decodeBtn = document.getElementById('decodificar');
-let strTxt = document.getElementById('str').value;
-let resultMsg = document.getElementById('mDescifrado');
-let NumOffset = document.getElementById('offset').value;
+const chosenOffset = document.getElementById ('codificar').addEventListener('click',() => {
+let numOffset = document.getElementById('offsetChoice').value;
+let firsText = document.getElementById('textIn').value;
+let result= window.cipher.encode(firsText, numOffset);
+document.getElementById('textOut').innerHTML = result;
+})
 
+const chosenOffset2 = document.getElementById ('codificar').addEventListener('click',() => {
+let firsText = document.getElementById('textIn').value;
+let numOffset2 = document.getElementById('offsetChoice').value;
+let result= window.cipher.decode(firsText, numOffset);
+document.getElementById('textOut').innerHTML = result;
+})
 
-// positionB.addEventListener ('click', event => {
-//     move.textContent = cipher.encode(move.value, strTxt.value);
-
-//})
-
-// encodeBtn.addEventListener ('click', event => {
-//     resultMsg.textContent = cipher.encode(move.value, strTxt.value);
-// })
-
-    // decodeB.addEventListener ('click', function() {
-        
-    //     })
 
     

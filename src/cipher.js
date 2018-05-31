@@ -1,40 +1,40 @@
 window.cipher = {
 
-encode: ((str, offset) => {
+encode: (firsText, numOffset) => {
   let strEmpty = '';
      
-  for (let i = 0; i < str.length; i++){
-  let positionStr = str.charCodeAt(i); //Obtiene el valor ASCII
+  for (let i = 0; i < firsText.length; i++){
+  let positionStr = firsText.charCodeAt(i); //Obtiene el valor ASCII
     if ((positionStr >= 65) && (positionStr <= 90)){ 
-      let encript = (positionStr - 65 + offset) % 26 + 65;
+      let encript = (positionStr - 65 + numOffset) % 26 + 65;
       strEmpty += String.fromCharCode (encript);
-      } //Flujo de control de valores ASCII Mayusculas
+      } //Valores ASCII Mayusculas
    
     if ((positionStr >= 97) && (positionStr <= 122)){
-          let encript = (positionStr - 97 + offset) % 26 + 97;
+          let encript = (positionStr - 97 + numOffset) % 26 + 97;
           strEmpty += String.fromCharCode (encript);
-      } //Flujo de control de valores ASCII Minusculas
+      } //Valores ASCII Minusculas
   
   }
 return strEmpty;
-}), 
+}, 
 
-decode: ((str, offset) => {
+decode: (firsText, offset) => {
   let strEmpty = '';
 
-  for (let i = 0; i < str.length; i++){
-    let positionStr = str.charCodeAt(i);
+  for (let i = 0; i < firsText.length; i++){
+    let positionStr = firsText.charCodeAt(i);
   
     if ((positionStr >= 65) && (positionStr <= 90)){
-    let decode = (positionStr - 90 - offset) % 26 + 90;
+    let decrypt = (positionStr - 90 - numOffset) % 26 + 90;
     strEmpty += String.fromCharCode (decrypt);
   }//conversión ASCII letras mayúsculas
     
     if ((positionStr >= 97) && (positionStr <= 122)){
-    let decrypt = (positionStr - 122 - offset) % 26 + 122;
+    let decrypt = (positionStr - 122 - numOffset) % 26 + 122;
       strEmpty += String.fromCharCode (decrypt);
   }//conversión ASCII letras minúsculas
   }
   return strEmpty;
-  }),
+  },
 } 
