@@ -11,8 +11,8 @@ encode: (firsText, numOffset) => {
     } //Valores ASCII Mayusculas
    
     if ((positionStr >= 97) && (positionStr <= 122)){
-          let encript = (positionStr - 97 + parseInt(numOffset)) % 26 + 97;
-          strEmpty += String.fromCharCode (encript);
+      let encript = (positionStr - 97 + parseInt(numOffset)) % 26 + 97;
+      strEmpty += String.fromCharCode (encript);
     } //Valores ASCII Minusculas
   
   }

@@ -38,7 +38,7 @@ p{
 
 .sectionOne{
   display: block;
-  margin-left: 37em;
+  margin-left: 36em;
   position: relative;
   bottom: 90px;
 }
@@ -62,7 +62,7 @@ p{
 textarea{
   background-color: rgb(228, 201, 201);
   border:6px double  rgb(158, 6, 6);
-  border-radius: 12px;
+  border-radius: 16px;
   resize: none;
   box-shadow: 30px 30px 30px rgb(41, 31, 31);
 }
