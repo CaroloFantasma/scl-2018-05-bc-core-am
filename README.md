@@ -22,10 +22,10 @@ campos de batalla.
 
 Como mencionamos anteriormente, el cifrado César es un método de cifrado, y la
 funcionalidad de esta app es justamente esa, es decir, codificar y 
-descodificar mensajes de texto. 
+decodificar mensajes de texto. 
 
-La idea de esta aplicación web, es que pueda ser usaba por una amplía gama de 
-personas, y es por esto, que decidimos crear un diseño sencillo, cuya plataforme 
+La idea de esta aplicación web, es que pueda ser usada por una amplía gama de 
+personas, y es por esto, que decidmos crear un diseño sencillo, cuya plataforma 
 sea de fácil manejo para el usuario, entregándole funcionalidades útiles y 
 específicas.
 
@@ -37,7 +37,7 @@ debe elegir si quiere cifrar o descifrar su mensaje, haciendo click en uno de lo
 botones. El resultado de su mensaje aparecerá en el cuadro de lectura.
 
 La aplicación puede usarse, por ejemplo, para crear una fiesta de cumpleaños
-sorpesa, así el festejado, no tendrá acceso a ninguna información, ya que
+sorpresa, así el festejado, no tendrá acceso a ninguna información, ya que
 solo los usuarios (invitados a la fiesta) sabrán con qué código ocultarán y 
 revelarán sus mensajes.
 

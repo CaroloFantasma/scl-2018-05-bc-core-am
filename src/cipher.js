@@ -1,12 +1,20 @@
 window.cipher = {
 
+//Arrow function para cifrar el mensaje
 encode: (firsText, numOffset) => {
+
+  //Variable 'vacía' donde se almacenará el mensaje a modificar
   let strEmpty = '';
      
   for (let i = 0; i < firsText.length; i++){
-  let positionStr = firsText.charCodeAt(i); //Obtiene el valor ASCII
+
+  //Obteniendo el valor ASCII por medio de charCodeAt
+  let positionStr = firsText.charCodeAt(i);
+
     if ((positionStr >= 65) && (positionStr <= 90)){ 
       let encript = (positionStr - 65 + parseInt(numOffset)) % 26 + 65;
+
+      //Transformando el código ASCII a letra por medio de String.charCodeAt
       strEmpty += String.fromCharCode (encript);
     } //Valores ASCII Mayusculas
    
@@ -16,9 +24,11 @@ encode: (firsText, numOffset) => {
     } //Valores ASCII Minusculas
   
   }
+  //resultado de texto cifrados
 return strEmpty;
 }, 
 
+//Arrow function para descifrar el mensaje
 decode: (firsText, numOffset) => {
   let strEmpty = '';
 

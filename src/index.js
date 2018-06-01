@@ -1,4 +1,4 @@
-/* Acá va tu código */
+//Mediante el uso de DOM, 'almacenamos' la información de HTML
 
 const chosenOffset = document.getElementById('codificar').addEventListener('click', () =>{
   let numOffset = document.getElementById('offsetChoice').value;
