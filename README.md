@@ -11,7 +11,7 @@ número fijo de desplazamiento escogido por el autor del mensaje.
 Por ejemplo, si usamos el número 3 como desplazamiento fijo, el resultado sería
 el siguiente:
 
-(http://quhist.com/wp-content/uploads/2012/07/Captura-de-pantalla-2012-07-25-a-las-21.12.22.png) 
+![img](http://quhist.com/wp-content/uploads/2012/07/Captura-de-pantalla-2012-07-25-a-las-21.12.22.png) 
 
 
 Es importante destacar que este sistema de cifrado fue creado por el emperador 
