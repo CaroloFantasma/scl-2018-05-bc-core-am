@@ -1,4 +1,6 @@
-//Mediante el uso de DOM, 'almacenamos' la información de HTML
+//Mediante el uso de DOM, 'almacenamos' la información de HTML.
+//Botón de cifrado y descifrado, luego almacenamos la información de número de posición y texto del usuario.
+//Posteriormente llamamos a la función de cipher.js para otorgarle los nuevos valores.
 
 const chosenOffset = document.getElementById('codificar').addEventListener('click', () =>{
   let numOffset = document.getElementById('offsetChoice').value;

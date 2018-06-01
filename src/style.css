@@ -94,18 +94,10 @@ textarea{
 }
 
 #offsetChoice{
+  position: relative;
+  left: 4em;
   border: solid medium;
   border-radius: 12px;
-  width: 60px;
-  box-shadow: 20px 20px 20px rgb(41, 31, 31);
-}
-
-#position{
-  border: solid medium;
-  border-radius: 12px;
-  width: 120px;
-  font-family: 'Special Elite', cursive;
-  font-family: 'Itim', cursive;
-  font-size: 15px;
+  width: 80px;
   box-shadow: 20px 20px 20px rgb(41, 31, 31);
 }
