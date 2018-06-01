@@ -25,7 +25,7 @@ funcionalidad de esta app es justamente esa, es decir, codificar y
 decodificar mensajes de texto. 
 
 La idea de esta aplicación web, es que pueda ser usada por una amplía gama de 
-personas, y es por esto, que decidmos crear un diseño sencillo, cuya plataforma 
+personas, y es por esto, que decidimos crear un diseño sencillo, cuya plataforma 
 sea de fácil manejo para el usuario, entregándole funcionalidades útiles y 
 específicas.
 
